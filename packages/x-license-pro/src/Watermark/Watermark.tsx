@@ -45,6 +45,7 @@ export function Watermark(props: WatermarkProps) {
         right: 0,
         letterSpacing: 5,
         fontSize: 24,
+        display:'none'
       }}
     >
       {getLicenseErrorMessage(licenseStatus)}
